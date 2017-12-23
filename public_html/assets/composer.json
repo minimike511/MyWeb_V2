@@ -1,0 +1,16 @@
+{
+  "name": "MichaelPark/MyWeb_V2",
+  "description": "My personal web portfolio",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Michael Park",
+      "email": "michael511.mp@gmail.com"
+    }
+  ],
+  "require": {
+    "sendgrid/sendgrid": "4.0.4"
+  }
+}
+}
