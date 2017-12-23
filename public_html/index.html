@@ -5,15 +5,108 @@
     <title>Michael Park | Personal Web Portfolio</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
 <body>
-<nav>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Michael Park</a>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="page-scroll">Home</a></li>
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#resume" class="page-scroll">Resume</a></li>
+                <li><a href="#works" class="page-scroll">Portfolio</a></li>
+                <li><a href="#personal" class="page-scroll">Interests</a></li>
+                <li><a href="#email" class="page-scroll">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
 </nav>
-<div>
-    Hello World
+
+<!-- Home Page -->
+<div id="home" class="text-center">
+    <div class="overlay">
+        <div class="content">
+            <h1>Hello my name is <strong><span class="color">Michael Park</span></strong></h1>
+            <p class="lead"><strong>Welcome</strong> to my personal <strong>portfolio!</strong></p>
+        </div>
+    </div>
 </div>
+
+<!-- About me page -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/WesternLogo.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+                <div class="about-text">
+                    <div class="section-title">
+                        <h4>About myself</h4>
+                        <h2>School: <strong>Western University</strong></h2>
+                        <hr>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="intro">4th year Computer Science Student pursuing Honors Speicialization in Computer
+                        Science with a Minor in Game Development who has a passion in coding</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>Language: </h4>
+                            <ul class="about-list">
+                                <li><span class="fa fa-angle-right"></span>Java</li>
+                                <li><span class="fa fa-angle-right"></span>C++</li>
+                                <li><span class="fa fa-angle-right"></span>C</li>
+                                <li><span class="fa fa-angle-right"></span>HTML</li>
+                                <li><span class="fa fa-angle-right"></span>CSS</li>
+                                <li><span class="fa fa-angle-right"></span>Javascript</li>
+                                <li><span class="fa fa-angle-right"></span>ReactJS</li>
+                                <li><span class="fa fa-angle-right"></span>ARM Assembly</li>
+                                <li><span class="fa fa-angle-right"></span>MIPs Assembly</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>IDE/Framework: </h4>
+                            <ul class="about-list">
+                                <li><span class="fa fa-angle-right"></span>VS 2017</li>
+                                <li><span class="fa fa-angle-right"></span>Unreal Engine 4</li>
+                                <li><span class="fa fa-angle-right"></span>Autodesk Maya 2017</li>
+                                <li><span class="fa fa-angle-right"></span>Adobe Photoshop</li>
+                                <li><span class="fa fa-angle-right"></span>PhpStorm</li>
+                                <li><span class="fa fa-angle-right"></span>Eclipse</li>
+                                <li><span class="fa fa-angle-right"></span>InteliJ</li>
+                                <li><span class="fa fa-angle-right"></span>gVim</li>
+                                <li><span class="fa fa-angle-right"></span>Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>OS: </h4>
+                            <ul class="about-list">
+                                <li><span class="fa fa-angle-right"></span>Windows</li>
+                                <li><span class="fa fa-angle-right"></span>Linux</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer>
 
 </footer>
